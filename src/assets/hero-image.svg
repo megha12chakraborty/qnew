@@ -1,0 +1,19 @@
+<svg width="360" height="360" viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="g1" cx="50%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#6366f1"></stop>
+      <stop offset="100%" stop-color="#4f46e5" stop-opacity="0"></stop>
+    </radialGradient>
+  </defs>
+  <rect width="360" height="360" rx="28" fill="#0b1229"></rect>
+  <circle cx="260" cy="100" r="120" fill="url(#g1)"></circle>
+  <g transform="translate(60,80)">
+    <rect x="0" y="0" width="240" height="160" rx="16" fill="#0f172a" stroke="#3843c9"></rect>
+    <rect x="20" y="26" width="200" height="16" rx="8" fill="#1f2a6b"></rect>
+    <rect x="20" y="56" width="200" height="12" rx="6" fill="#1f2a6b"></rect>
+    <rect x="20" y="76" width="200" height="12" rx="6" fill="#1f2a6b"></rect>
+    <rect x="20" y="96" width="200" height="12" rx="6" fill="#1f2a6b"></rect>
+    <circle cx="120" cy="120" r="22" fill="#6366f1"></circle>
+    <text x="120" y="128" text-anchor="middle" font-family="Arial" font-size="16" fill="#fff">Start</text>
+  </g>
+</svg>
