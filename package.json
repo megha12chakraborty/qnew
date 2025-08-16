@@ -1,12 +1,13 @@
 {
-  "name": "quiz-app",
+  "name": "qnew",
   "version": "1.0.0",
   "private": true,
-  "type": "module",
+  "homepage": "https://megha12chakraborty.github.io/qnew",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview --port 5173"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -15,6 +16,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.1",
-    "vite": "^5.4.0"
+    "gh-pages": "^6.0.0",
+    "vite": "^5.4.19"
   }
 }
